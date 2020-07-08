@@ -1,0 +1,123 @@
+.App {
+    text-align: center;
+    background-color: #303131;
+    height: 100vh;
+    color: #fff;
+}
+
+.titleApp {
+    padding: 20px;
+}
+
+.pickerPanel {
+    width: 280px;
+    margin: 0 auto;
+    box-shadow: 1px 0 14px 0 rgba(0, 0, 0, .75);
+}
+
+.bold {
+    font-weight: bold;
+    margin: 4px;
+    font-size: 1.3rem;
+}
+
+/*current dates*/
+.datesLineTitle, .datesLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #001f3f;
+    min-height: 40px;
+}
+
+.datesLine {
+    background-color: #0074D9 !important;
+}
+
+.datesLine > * {
+    width: 80px;
+}
+
+.singleDate {
+    min-width: 85px;
+}
+
+/*picker*/
+.pickerContainer {
+    background-color: #fff;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #303131;
+}
+
+.arrowsWrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    align-items: center;
+}
+
+.leftArrow, .rightArrow:hover {
+    cursor: pointer;
+}
+
+.currentMonth {
+    width: 120px;
+}
+
+.daysName span {
+    width: 40px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.monthSquares {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 130px;
+}
+
+.monthSquares button {
+    width: 40px;
+    height: 40px;
+}
+
+.specificDay {
+    user-select: none;
+    border: none;
+    background-color: #fff;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+}
+
+.specificDay:hover:enabled {
+    cursor: pointer;
+    opacity: 0.8;
+    color: white;
+    background-color: #001f3f !important;
+}
+
+.clicked {
+    background-color: #001f3f !important;
+    color: white;
+}
+
+.clicked:hover {
+    opacity: 1;
+}
+
+.hovered {
+    background-color: #E0F4FE;
+}
+
+.hovered:hover {
+    background-color: #9ddcfb;
+}
+
+.disabled {
+    opacity: 0.2;
+}
+
+.copyRight {
+    padding-top: 20px;
+}
